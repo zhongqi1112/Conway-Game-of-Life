@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="SFML" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\Modules\;CMake Files\src\;CMake Files\src\SFML\;CMake Files\src\SFML\System\;CMake Files\src\SFML\Main\;CMake Files\src\SFML\Window\;CMake Files\src\SFML\Network\;CMake Files\src\SFML\Graphics\;CMake Files\src\SFML\Audio\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="C:/Users/Will/Desktop/SFML-master/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="C:/Users/Will/Desktop/SFML-master/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="C:/Users/Will/Desktop/SFML-master/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="C:/Users/Will/Desktop/SFML-master/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="C:/Users/Will/Desktop/SFML-master/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="C:/Users/Will/Desktop/SFML-master/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="C:/Users/Will/Desktop/SFML-master/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sfml-system">
+         <Option output="C:/Users/Will/Desktop/SFML-master/build/lib/sfml-system-d-2.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/Users/Will/Desktop/SFML-master/build/src/SFML/System" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/include" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/src" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/System/Makefile&quot;  VERBOSE=1 sfml-system" />
+            <CompileFile command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/System/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/System/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/System/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sfml-system/fast">
+         <Option output="C:/Users/Will/Desktop/SFML-master/build/lib/sfml-system-d-2.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/Users/Will/Desktop/SFML-master/build/src/SFML/System" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/include" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/src" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/System/Makefile&quot;  VERBOSE=1 sfml-system/fast" />
+            <CompileFile command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/System/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/System/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/System/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sfml-main">
+         <Option output="C:/Users/Will/Desktop/SFML-master/build/lib/libsfml-main-d.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/Users/Will/Desktop/SFML-master/build/src/SFML/Main" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/include" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/src" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Main/Makefile&quot;  VERBOSE=1 sfml-main" />
+            <CompileFile command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Main/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Main/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Main/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sfml-main/fast">
+         <Option output="C:/Users/Will/Desktop/SFML-master/build/lib/libsfml-main-d.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/Users/Will/Desktop/SFML-master/build/src/SFML/Main" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/include" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/src" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Main/Makefile&quot;  VERBOSE=1 sfml-main/fast" />
+            <CompileFile command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Main/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Main/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Main/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sfml-window">
+         <Option output="C:/Users/Will/Desktop/SFML-master/build/lib/sfml-window-d-2.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/Users/Will/Desktop/SFML-master/build/src/SFML/Window" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-D_UNICODE" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/include" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/src" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Window/Makefile&quot;  VERBOSE=1 sfml-window" />
+            <CompileFile command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Window/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Window/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Window/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sfml-window/fast">
+         <Option output="C:/Users/Will/Desktop/SFML-master/build/lib/sfml-window-d-2.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/Users/Will/Desktop/SFML-master/build/src/SFML/Window" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNICODE" />
+            <Add option="-D_UNICODE" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/include" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/src" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Window/Makefile&quot;  VERBOSE=1 sfml-window/fast" />
+            <CompileFile command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Window/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Window/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Window/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sfml-network">
+         <Option output="C:/Users/Will/Desktop/SFML-master/build/lib/sfml-network-d-2.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/Users/Will/Desktop/SFML-master/build/src/SFML/Network" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/include" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/src" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Network/Makefile&quot;  VERBOSE=1 sfml-network" />
+            <CompileFile command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Network/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Network/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Network/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sfml-network/fast">
+         <Option output="C:/Users/Will/Desktop/SFML-master/build/lib/sfml-network-d-2.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/Users/Will/Desktop/SFML-master/build/src/SFML/Network" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/include" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/src" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Network/Makefile&quot;  VERBOSE=1 sfml-network/fast" />
+            <CompileFile command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Network/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Network/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Network/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sfml-graphics">
+         <Option output="C:/Users/Will/Desktop/SFML-master/build/lib/sfml-graphics-d-2.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/Users/Will/Desktop/SFML-master/build/src/SFML/Graphics" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-DSTBI_FAILURE_USERMSG" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/extlibs/headers" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/extlibs/headers/jpeg" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/extlibs/headers/libfreetype/windows" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/include" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/src" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Graphics/Makefile&quot;  VERBOSE=1 sfml-graphics" />
+            <CompileFile command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Graphics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Graphics/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Graphics/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sfml-graphics/fast">
+         <Option output="C:/Users/Will/Desktop/SFML-master/build/lib/sfml-graphics-d-2.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/Users/Will/Desktop/SFML-master/build/src/SFML/Graphics" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DGLEW_STATIC" />
+            <Add option="-DSTBI_FAILURE_USERMSG" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/extlibs/headers" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/extlibs/headers/jpeg" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/extlibs/headers/libfreetype/windows" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/include" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/src" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Graphics/Makefile&quot;  VERBOSE=1 sfml-graphics/fast" />
+            <CompileFile command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Graphics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Graphics/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Graphics/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sfml-audio">
+         <Option output="C:/Users/Will/Desktop/SFML-master/build/lib/sfml-audio-d-2.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/Users/Will/Desktop/SFML-master/build/src/SFML/Audio" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/extlibs/headers/AL" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/extlibs/headers/libsndfile/windows" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/include" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/src" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Audio/Makefile&quot;  VERBOSE=1 sfml-audio" />
+            <CompileFile command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Audio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Audio/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Audio/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sfml-audio/fast">
+         <Option output="C:/Users/Will/Desktop/SFML-master/build/lib/sfml-audio-d-2.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/Users/Will/Desktop/SFML-master/build/src/SFML/Audio" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include" />
+            <Add directory="C:/Qt/Tools/mingw482_32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw482_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/extlibs/headers/AL" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/extlibs/headers/libsndfile/windows" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/include" />
+            <Add directory="C:/Users/Will/Desktop/SFML-master/src" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Audio/Makefile&quot;  VERBOSE=1 sfml-audio/fast" />
+            <CompileFile command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Audio/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Audio/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw482_32/bin/mingw32-make.exe -f &quot;C:/Users/Will/Desktop/SFML-master/build/src/SFML/Audio/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Audio/ALCheck.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Audio/AudioDevice.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Audio/Listener.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Audio/Music.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Audio/Sound.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Audio/SoundBuffer.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Audio/SoundBufferRecorder.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Audio/SoundFile.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Audio/SoundRecorder.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Audio/SoundSource.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Audio/SoundStream.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/BlendMode.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/CircleShape.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/Color.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/ConvexShape.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/Font.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/GLCheck.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/GLExtensions.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/Image.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/ImageLoader.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/RectangleShape.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/RenderStates.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/RenderTarget.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/RenderTexture.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/RenderTextureImpl.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/RenderTextureImplDefault.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/RenderTextureImplFBO.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/RenderWindow.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/Shader.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/Shape.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/Sprite.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/Text.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/Texture.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/TextureSaver.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/Transform.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/Transformable.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/Vertex.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/VertexArray.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/View.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Main/MainWin32.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Network/Ftp.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Network/Http.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Network/IpAddress.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Network/Packet.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Network/Socket.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Network/SocketSelector.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Network/TcpListener.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Network/TcpSocket.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Network/UdpSocket.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Network/Win32/SocketImpl.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/System/Clock.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/System/Err.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/System/Lock.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/System/Mutex.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/System/Sleep.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/System/String.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/System/Thread.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/System/ThreadLocal.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/System/Time.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/System/Win32/ClockImpl.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/System/Win32/MutexImpl.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/System/Win32/SleepImpl.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/System/Win32/ThreadImpl.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/System/Win32/ThreadLocalImpl.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/Context.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/GlContext.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/GlResource.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/Joystick.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/JoystickManager.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/Keyboard.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/Mouse.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/Sensor.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/SensorManager.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/Touch.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/VideoMode.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/Win32/InputImpl.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/Win32/JoystickImpl.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/Win32/SensorImpl.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/Win32/VideoModeImpl.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/Win32/WglContext.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/Win32/WindowImplWin32.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/Window.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/WindowImpl.cpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Audio/Export.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Audio/Listener.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Audio/Music.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Audio/Sound.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Audio/SoundBuffer.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Audio/SoundBufferRecorder.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Audio/SoundRecorder.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Audio/SoundSource.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Audio/SoundStream.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/BlendMode.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/CircleShape.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/Color.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/ConvexShape.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/Drawable.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/Export.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/Font.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/Glyph.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/Image.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/PrimitiveType.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/Rect.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/Rect.inl">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/RectangleShape.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/RenderStates.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/RenderTarget.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/RenderTexture.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/RenderWindow.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/Shader.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/Shape.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/Sprite.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/Text.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/Texture.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/Transform.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/Transformable.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/Vertex.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/VertexArray.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Graphics/View.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Network/Export.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Network/Ftp.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Network/Http.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Network/IpAddress.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Network/Packet.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Network/Socket.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Network/SocketHandle.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Network/SocketSelector.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Network/TcpListener.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Network/TcpSocket.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Network/UdpSocket.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/Clock.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/Err.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/Export.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/InputStream.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/Lock.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/Mutex.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/NonCopyable.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/Sleep.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/String.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/String.inl">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/Thread.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/Thread.inl">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/ThreadLocal.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/ThreadLocalPtr.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/ThreadLocalPtr.inl">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/Time.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/Utf.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/Utf.inl">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/Vector2.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/Vector2.inl">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/Vector3.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/System/Vector3.inl">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Window/Context.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Window/ContextSettings.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Window/Event.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Window/Export.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Window/GlResource.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Window/Joystick.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Window/Keyboard.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Window/Mouse.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Window/Sensor.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Window/Touch.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Window/VideoMode.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Window/Window.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Window/WindowHandle.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/include/SFML/Window/WindowStyle.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Audio/ALCheck.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Audio/AudioDevice.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Audio/SoundFile.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/GLCheck.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/GLExtensions.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/ImageLoader.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/RenderTextureImpl.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/RenderTextureImplDefault.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/RenderTextureImplFBO.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/TextureSaver.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/stb_image/stb_image.h">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/stb_image/stb_image_write.h">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Network/SocketImpl.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Network/Win32/SocketImpl.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/System/Win32/ClockImpl.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/System/Win32/MutexImpl.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/System/Win32/SleepImpl.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/System/Win32/ThreadImpl.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/System/Win32/ThreadLocalImpl.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/GlContext.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/InputImpl.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/JoystickImpl.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/JoystickManager.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/SensorImpl.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/SensorManager.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/VideoModeImpl.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/Win32/InputImpl.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/Win32/JoystickImpl.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/Win32/SensorImpl.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/Win32/WglContext.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/Win32/WindowImplWin32.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/WindowImpl.hpp">
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/cmake/Config.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/cmake/Macros.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/cmake/Modules/FindGLEW.cmake">
+          <Option virtualFolder="CMake Files\cmake\Modules\" />
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/cmake/Modules/FindSndfile.cmake">
+          <Option virtualFolder="CMake Files\cmake\Modules\" />
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\SFML\" />
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/System/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\SFML\System\" />
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Main/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\SFML\Main\" />
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Window/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\SFML\Window\" />
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Network/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\SFML\Network\" />
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Graphics/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\SFML\Graphics\" />
+      </Unit>
+      <Unit filename="C:/Users/Will/Desktop/SFML-master/src/SFML/Audio/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\SFML\Audio\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
