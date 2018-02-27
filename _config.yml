@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
 title: Conway's Game of Life Simulation
 author: Stephen Zq
-description: To create a simulation of Conway’s Game of Life using two dimensional arrays.
+description: To create a simulation of Conway’s Game of Life using two dimensional arrays. Built hierarchical functions using Simple and Fast Multimedia Library to efficiently load media assets.
