@@ -1,1 +1,4 @@
 theme: jekyll-theme-cayman
+title: Conway's Game of Life Simulation
+author: Stephen Zq
+description: To create a simulation of John Conway’s Game of Life using two dimensional arrays.
