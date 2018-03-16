@@ -24,9 +24,7 @@ The goal of this project is to create a simulation of Conway’s Game of Life us
 The “neighbors” of cell are the adjacent and diagonal cells.
 
 ## Purpose
- 
-This project will be the culmination of the content discussed in this course.
- 
+
 - Design: You will be building function hierarchy that will make managing this process easier. Low level functions that will act as tools on top of which higher level functions will be built upon. This is the most important part of this project as we spent a great deal of time talking about this issue not to mention all the projects we built with these ideas in mind.
 - Flow of Control: The process of creating consecutive generations will be near impossible to do without using various nested loops.
 - Functions: There will be many functions used to breakdown the project into specific tasks that must be performed each time new generation is generated.
