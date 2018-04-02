@@ -14,7 +14,7 @@ The "game" is a zero-player game, meaning that its evolution is determined by it
 
 ## Description
 
-The goal of this project is to create a simulation of Conway’s Game of Life using two dimensional arrays. Use [Simple and Fast Multimedia Library (SFML)](https://www.youtube.com/playlist?list=PLHJE4y54mpC5j_x90UkuoMZOdmmL9-_rg) for Graphical User Interface (GUI). Each element of the array represents cell that is either alive or dead. Once an initial state is setup, the program will generate new generations based on the following [Rules of the Game](./docs/description.pdf)
+The goal of this project is to create a simulation of Conway’s Game of Life using two dimensional arrays. Use [Simple and Fast Multimedia Library (SFML)](https://www.youtube.com/playlist?list=PLHJE4y54mpC5j_x90UkuoMZOdmmL9-_rg) for Graphical User Interface (GUI). Each element of the array represents cell that is either alive or dead. Once an initial state is setup, the program will generate new generations based on the following [Rules of the Game](./docs/description.pdf):
  
 - A live cell with two or three live neighbors will remain alive.
 - A live cell with fewer than two live neighbors will die.
