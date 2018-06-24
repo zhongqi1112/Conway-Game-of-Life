@@ -1,4 +1,6 @@
-# Conway's Game of Life
+﻿# Conway's Game of Life
+
+## Introduction
 
 The [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life), also known simply as Life, is a cellular automaton devised by the British mathematician [John Horton Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) in 1970.
 
@@ -14,7 +16,7 @@ The "game" is a zero-player game, meaning that its evolution is determined by it
 
 ## Description
 
-The goal of this project is to create a simulation of Conway’s Game of Life using two dimensional arrays. Use [Simple and Fast Multimedia Library (SFML)](https://www.youtube.com/playlist?list=PLHJE4y54mpC5j_x90UkuoMZOdmmL9-_rg) for Graphical User Interface (GUI). Each element of the array represents cell that is either alive or dead. Once an initial state is setup, the program will generate new generations based on the following [Rules of the Game](./docs/description.pdf)
+The goal of this project is to create a simulation of Conway’s Game of Life using two dimensional arrays. Use [Simple and Fast Multimedia Library (SFML)]https://www.sfml-dev.org/) for Graphical User Interface (GUI). Each element of the array represents cell that is either alive or dead. Once an initial state is setup, the program will generate new generations based on the following [Rules of the Game](./docs/description.pdf)
  
 - A live cell with two or three live neighbors will remain alive.
 - A live cell with fewer than two live neighbors will die.
@@ -93,3 +95,20 @@ These are necessary functions:
 **A single Gosper's glider gun creating "gliders"**
 
 ![Screenshot](./images/Gospers_glider_gun.gif)
+
+## Compile
+
+### Installation
+
+- C++ IDE: I rececommend [Visual Studio ](https://visualstudio.microsoft.com/vs/), you could also use [Qt Creator](https://www.qt.io/), a good IDE for GUI, or other IDE you like to use.
+- GUI Library: We are using SFML for this GUI, you could download the library [SFML download page](https://www.sfml-dev.org/download.php). After download it, you should visit the [tutorial page](https://www.sfml-dev.org/learn.php) to learn how to import SFML lib to your IDE. 
+Also, there is a [youtube video ](https://www.youtube.com/watch?v=axIgxBQVBg0) teach us how to follow the tutorial, I recommend you watch this video to import SFML, it will make your life easier.
+
+### Run
+
+- Create a new `Window Console Application` project.
+- Copy and paste all `.cpp` files to `Source Files` folder.
+- Copy and paste all `.hpp` files to `Header Files` folder.
+- Run and enjoy the game of life.
+
+Note: this is an `Console Application`, so that you could trace every step you did to modify the code easily. When you feel you could publish the game, just copy and paste the codes to a `Window Application`.

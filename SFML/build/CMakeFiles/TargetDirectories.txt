@@ -1,6 +1,0 @@
-C:/Users/Will/Desktop/SFML-master/build/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-C:/Users/Will/Desktop/SFML-master/build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-C:/Users/Will/Desktop/SFML-master/build/src/SFML/Main/CMakeFiles/sfml-main.dir
-C:/Users/Will/Desktop/SFML-master/build/src/SFML/Network/CMakeFiles/sfml-network.dir
-C:/Users/Will/Desktop/SFML-master/build/src/SFML/System/CMakeFiles/sfml-system.dir
-C:/Users/Will/Desktop/SFML-master/build/src/SFML/Window/CMakeFiles/sfml-window.dir
