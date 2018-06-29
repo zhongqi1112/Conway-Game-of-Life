@@ -17,11 +17,13 @@ The goal of this project is to create a simulation of Conway’s Game of Life wi
 - A live cell with more than three live neighbors will die.
 - A dead cell with exactly three live neighbors will become a live cell.
 
-The “neighbors” of cell are the adjacent and diagonal cells.
+The **neighbors** of cell are the adjacent and diagonal cells. 
+> total neighbors number of one cell is 8.
 
 ## GUI
 
 ### Menu
+
 - `START`: Start the game
 - `STOP`: Pause the game
 - `ADD CELLS`: Rondom add 50 cells into the world
@@ -30,6 +32,8 @@ The “neighbors” of cell are the adjacent and diagonal cells.
 - `SAVE WORLD`: Save the current world
 - `SAVE PATTERN`: Save current world as a pattern
 - `LOAD PATTERN`: Load an exsiting world from database
+
+**Note**: click on the square `boxes` instead of `SAVE PATTERN` and `LOAD PATTERN` to save or load pattern.
 
 ### Windows
 
@@ -46,7 +50,6 @@ The “neighbors” of cell are the adjacent and diagonal cells.
 ![loadPattern](./images/pattern8.JPG)
 
 **Note**: if you want to know more about game, you could look at the [desgin of game](./docs/description.pdf).
-**Note**: click on the square `boxes` instead of `SAVE PATTERN` and `LOAD PATTERN` to save or load pattern.
 
 ## Compile
 
