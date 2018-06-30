@@ -20,6 +20,8 @@ The goal of this project is to create a simulation of Conway’s Game of Life wi
 The **neighbors** of cell are the adjacent and diagonal cells. 
 > total neighbors number of one cell is 8.
 
+![countNeighbors](./images/blinker.png)
+
 ## GUI
 
 ### Menu
@@ -45,9 +47,14 @@ The **neighbors** of cell are the adjacent and diagonal cells.
 
 ![loadWorld](./images/world.JPG)
 
-#### Load pattern
 
-![loadPattern](./images/pattern8.JPG)
+### Console
+
+This is an `Console Application`, so that you could trace every position you clicked on screen, so it is easy to modify the code. When you are ready to publish the game, just creat a `Window Application` with same code.
+
+#### Console window
+
+![console](./images/console.JPG)
 
 **Note**: if you want to know more about game, you could look at the [desgin of game](./docs/description.pdf).
 
@@ -67,4 +74,4 @@ Also, there is a [youtube video ](https://www.youtube.com/watch?v=axIgxBQVBg0) t
 - Copy and paste all files in `debug` folder to your `debug` folder.
 - Run and enjoy the game.
 
-**Note**: this is an `Console Application`, so that you could trace every position you clicked and modify the code easily. When you feel you could publish the game, just copy and paste the codes to a `Window Application`.
+> Thanks for looking at my project, if you have any questions, feel free to visit my website: [zhongqi1112.me/](http://zhongqi1112.me/)
