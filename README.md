@@ -62,8 +62,8 @@ This is an `Console Application`, so that you could trace every position you cli
 
 ### Installation
 
-- C++ IDE: I rececommend [Visual Studio ](https://visualstudio.microsoft.com/vs/), you could also use [Qt Creator](https://www.qt.io/), a good IDE for GUI, or other IDEs you like to use.
-- GUI Library: We are using SFML for this GUI, you could download the library [SFML download page](https://www.sfml-dev.org/download.php). After download it, you should visit the [tutorial page](https://www.sfml-dev.org/learn.php) to learn how to import SFML lib to your IDE. 
+- `C++ IDE`: I rececommend [Visual Studio ](https://visualstudio.microsoft.com/vs/), you could also use [Qt Creator](https://www.qt.io/), a good IDE for GUI, or other IDEs you like to use.
+- `GUI Library`: We are using SFML for this GUI, you could download the library [SFML download page](https://www.sfml-dev.org/download.php). After download it, you should visit the [tutorial page](https://www.sfml-dev.org/learn.php) to learn how to import SFML lib to your IDE. 
 Also, there is a [youtube video ](https://www.youtube.com/watch?v=axIgxBQVBg0) teach us how to follow the tutorial, I recommend you watch this video, it will make your life easier.
 
 ### Run
