@@ -35,7 +35,7 @@ The **neighbors** of cell are the adjacent and diagonal cells.
 - `SAVE PATTERN`: Save current world as a pattern
 - `LOAD PATTERN`: Load an exsiting world from database
 
-**Note**: click on the square `boxes` instead of `SAVE PATTERN` and `LOAD PATTERN` to save or load pattern.
+**Note**: Green buttons could be clicked, and click on the square `boxes` instead of `SAVE PATTERN` and `LOAD PATTERN` to save or load pattern.
 
 ### Windows
 
