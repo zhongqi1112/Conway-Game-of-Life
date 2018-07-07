@@ -74,4 +74,4 @@ Also, there is a [youtube video ](https://www.youtube.com/watch?v=axIgxBQVBg0) t
 - Copy and paste all files in `debug` folder to your `debug` folder.
 - Run and enjoy the game.
 
-> Thanks for looking at my project, if you have any questions, feel free to visit my website: [zhongqi1112.me](http://zhongqi1112.me/)
+> Thanks for looking at my project, if you have any question, feel free to visit my website: [zhongqi1112.me](http://zhongqi1112.me/)
