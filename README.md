@@ -56,7 +56,7 @@ This is an `Console Application`, so that you could trace every position you cli
 
 ![console](./images/console.JPG)
 
-**Note**: if you want to know more about game, you could look at the [desgin of game](./docs/description.pdf).
+**Note**: if you want to know more coding structure about game, you could look at the [desgin of game](./docs/description.pdf).
 
 ## Compile
 
