@@ -50,7 +50,7 @@ The **neighbors** of cell are the adjacent and diagonal cells.
 
 ### Console
 
-This is an `Console Application`, so that you could trace every position you clicked on screen, so it is easy to modify the code. When you are ready to publish the game, just creat a `Window Application` with same code.
+This is a `Console Application`, so that you could trace every position you clicked on screen, so it is easy to modify the code. When you are ready to publish the game, just creat a `Window Application` with same code.
 
 #### Console window
 
